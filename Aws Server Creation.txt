@@ -1,0 +1,17 @@
+
+#!/bin/bash
+
+sudo -i
+apt update -y
+apt install nginx -y
+
+echo hello this server -1 > /var/www/html/index.html
+
+#!/bin/bash
+sudo -i
+apt update
+
+apt install nginx -y
+
+mkdir /var/www/html/test
+echo my server -1 >/var/www/html/test/index.html
